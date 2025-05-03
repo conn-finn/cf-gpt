@@ -1,6 +1,6 @@
 import torch
 
-class Encoder:
+class BasicEncoder:
     def __init__(self, text):
         self.all_chars = sorted(list(set(text)))
         self.char_num = len(self.all_chars)
